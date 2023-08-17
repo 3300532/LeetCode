@@ -1,5 +1,7 @@
+package main
+
 func containsDuplicate(nums []int) bool {
-    	hashSet := make(map[int]struct{})
+	hashSet := make(map[int]struct{})
 
 	for _, el := range nums {
 		_, exists := hashSet[el]
