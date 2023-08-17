@@ -1,3 +1,5 @@
+package main
+
 func removeDuplicates(input string) string {
 
 	buf := make([]byte, len(input))
